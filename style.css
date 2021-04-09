@@ -4,17 +4,18 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-image: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+   
 }
 
 .instagram-wrapper {
@@ -23,6 +24,7 @@ body {
     justify-content: start;
     width: 60%;
     height: 100vh;
+    
 }
 
 .instagram-phone {
@@ -36,16 +38,17 @@ body {
     height: 50rem;
 }
 
-.instagram-continue {
+.instagram-proceed {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+    
 }
 
-.group {
+.group-sup {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,15 +56,29 @@ body {
     background-color: #ffffff;
     width: 100%;
     padding: 1.3rem 0;
-    border: 1px solid lightgray;
+    border: 5px solid #FAD7BD;
+    border-radius: 5%;
+}
+
+.group-inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    border: 5px solid #FAD7BD;
+    
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 20px;
+    
 }
 
 .instagram-logo {
-    height: 3rem;
+    height: 5px;
 }
 
 .profile-photo {
@@ -70,26 +87,28 @@ body {
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    margin-top: 5px;
 }
 
 .profile-photo img {
-    height: 6rem;
+    height: 125px;
 }
 
 .instagram-login {
     background-color: #0095f6;
     color: #ffffff;
-    padding: 8px;
-    border-radius: 4px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
 }
 
 .instagram-logout {
     color: #0095f6;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 
 .not-account {
-    color: rgb(160, 160, 160);
+    color: rgb(140, 140, 140);
 }
 
 .link-blue {
@@ -149,7 +168,7 @@ body {
         display: none;
     }
 
-    .instagram-continue {
+    .instagram-proceed {
         width: 100%;
     }
     
